@@ -1,0 +1,14 @@
+syntax = 'proto3';
+option csharp_namespace = 'Proto.ProtoInterface';
+
+enum Proto_ErrorIds{
+	None = 0;
+	UnKnowError = 1;
+	JsonError = 2;
+	AuthFailure = 3;
+	NoMsgId = 4;
+	MsgIdNotValid = 5;
+	VersionErr = 6;
+	UserNameAlreadyExist = 7;
+	UserNameNotExist = 8;
+}
