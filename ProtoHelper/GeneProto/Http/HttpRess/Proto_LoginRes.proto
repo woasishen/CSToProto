@@ -1,0 +1,11 @@
+syntax = 'proto3';
+option csharp_namespace = 'Proto.ProtoInterface';
+
+import 'Proto_MsgResInfo.proto';
+message Proto_LoginRes{
+	uint64 UserId = 1;
+	string Token = 2;
+	string IP = 3;
+	Proto_MsgResInfo MsgResInfo = 4;
+	sint64 TimeTick = 5;
+}

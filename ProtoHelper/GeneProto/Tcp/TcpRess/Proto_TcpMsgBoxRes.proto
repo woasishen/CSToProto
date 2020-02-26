@@ -1,0 +1,10 @@
+syntax = 'proto3';
+option csharp_namespace = 'Proto.ProtoInterface';
+
+import 'Proto_MsgResInfo.proto';
+message Proto_TcpMsgBoxRes{
+	string Title = 1;
+	string Content = 2;
+	Proto_MsgResInfo MsgResInfo = 3;
+	sint64 TimeTick = 4;
+}

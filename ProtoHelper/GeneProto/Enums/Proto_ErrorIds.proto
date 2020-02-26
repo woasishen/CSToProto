@@ -1,0 +1,44 @@
+syntax = 'proto3';
+option csharp_namespace = 'Proto.ProtoInterface';
+
+enum Proto_ErrorIds{
+	None = 0;
+	UnKnowError = 1;
+	JsonError = 2;
+	AuthFailure = 3;
+	NoMsgId = 4;
+	MsgIdNotValid = 5;
+	VersionErr = 6;
+	UserNameAlreadyExist = 7;
+	UserNameNotExist = 8;
+	UserIdNotExist = 9;
+	UserIdNotMatch = 10;
+	PasswordNotMatch = 11;
+	TokenNotMatch = 12;
+	AlreadyInRoom = 13;
+	RoomConfigNotValid = 14;
+	ReturnRoomNotExit = 15;
+	RoomNotExist = 16;
+	NotInRoomExist = 17;
+	RoomIsFull = 18;
+	NotInRoom = 19;
+	StartRoomCannotLeave = 20;
+	OwnerCannotLeave = 21;
+	NotYourPlayTime = 22;
+	PlayItemNotExist = 23;
+	WaitForPlay = 24;
+	NotInSignUp = 25;
+	NoFaToFa = 26;
+	NotEnoughForGang = 27;
+	NoCanHuMingTang = 28;
+	CannotHu = 29;
+	OtherDeviceConnected = 30;
+	LogUploadSucceed = 31;
+	GameIdNotExist = 32;
+	MoneyNotEnough = 33;
+	AlreadyMatching = 34;
+	NotInMatching = 35;
+	MoneyNotEnoughToGive = 36;
+	UserMoneyNotEnough = 37;
+	PhoneTcpNotExist = 38;
+}

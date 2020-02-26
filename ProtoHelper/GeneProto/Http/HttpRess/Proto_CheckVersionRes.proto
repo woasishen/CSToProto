@@ -1,0 +1,12 @@
+syntax = 'proto3';
+option csharp_namespace = 'Proto.ProtoInterface';
+
+import 'Proto_MsgResInfo.proto';
+message Proto_CheckVersionRes{
+	bool LuaNeedUpdate = 1;
+	bool CSNeedUpdate = 2;
+	string CSVersion = 3;
+	string LuaVersion = 4;
+	Proto_MsgResInfo MsgResInfo = 5;
+	sint64 TimeTick = 6;
+}
