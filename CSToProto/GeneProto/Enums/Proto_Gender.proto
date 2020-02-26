@@ -1,7 +1,0 @@
-syntax = 'proto3';
-option csharp_namespace = 'Proto.ProtoInterface';
-
-enum Proto_Gender{
-	Boy = 0;
-	Girl = 1;
-}

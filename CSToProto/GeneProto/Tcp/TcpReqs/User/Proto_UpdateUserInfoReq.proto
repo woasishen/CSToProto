@@ -1,8 +1,0 @@
-syntax = 'proto3';
-option csharp_namespace = 'Proto.ProtoInterface';
-
-import 'Proto_MsgReqInfo.proto';
-message Proto_UpdateUserInfoReq{
-	Proto_MsgReqInfo MsgReqInfo = 1;
-	sint64 TimeTick = 2;
-}
